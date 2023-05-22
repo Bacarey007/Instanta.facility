@@ -7,8 +7,10 @@
     "openMode": 1
   },
   "env": {
-    "testUrl": "https://www.instagram.com"
+    "username": "admin@sysdesk.com",
+    "password": "admin123"
   },
+  "baseurl" : "http://test.facility.instanta.app",
   "defaultCommandTimeout": 30000,
   "pageLoadTimeout": 50000
 }

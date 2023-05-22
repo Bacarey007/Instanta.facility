@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-05-14T06:49:02.508Z",
-    "end": "2022-05-14T06:49:14.128Z",
-    "duration": 11620,
+    "start": "2022-10-19T11:25:17.411Z",
+    "end": "2022-10-19T11:25:34.050Z",
+    "duration": 16639,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a1aa975a-ff1c-4cb5-9ccc-4bf666ec0339",
+      "uuid": "f4035f47-cf1a-4e5e-8d7a-bf96f9c92a1e",
       "title": "",
       "fullFile": "cypress/integration/RegressionTest.js",
       "file": "cypress/integration/RegressionTest.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a18bdf2b-d281-49e4-b1e9-8f33f3583ffd",
+          "uuid": "cbfc0140-b7dd-4b28-b607-d11fa6480a11",
           "title": "Instagram Regression Test suite",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate that user with invalid details cannot login to the Instagram successfully",
               "fullTitle": "Instagram Regression Test suite Validate that user with invalid details cannot login to the Instagram successfully",
               "timedOut": null,
-              "duration": 8335,
+              "duration": 11730,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "//Login\ncy.Login({}); //Assert login with wrong details.\ncy.AssertLoginWrongDetails({});",
               "err": {},
-              "uuid": "caeda5b1-c607-41f8-817d-73a5c1ce365b",
-              "parentUUID": "a18bdf2b-d281-49e4-b1e9-8f33f3583ffd",
+              "uuid": "c27e4c8c-5d48-46c9-8dc6-21f6454eb659",
+              "parentUUID": "cbfc0140-b7dd-4b28-b607-d11fa6480a11",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "caeda5b1-c607-41f8-817d-73a5c1ce365b"
+            "c27e4c8c-5d48-46c9-8dc6-21f6454eb659"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8335,
+          "duration": 11730,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -90,7 +90,7 @@
         "useInlineDiffs": false,
         "code": true
       },
-      "version": "6.2.2"
+      "version": "6.3.1"
     },
     "marge": {
       "options": null,
