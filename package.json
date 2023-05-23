@@ -17,7 +17,7 @@
     "cypress",
     "automation"
   ],
-  "author": "Ayobami",
+  "author": "Akeem",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^7.7.0",
