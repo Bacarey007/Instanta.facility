@@ -10,7 +10,8 @@
     "username": "admin@sysdesk.com",
     "password": "admin123"
   },
-  "baseurl" : "http://test.facility.instanta.app",
-  "defaultCommandTimeout": 30000,
-  "pageLoadTimeout": 50000
+  "baseUrl" : "https://demo.facility.instanta.app/",
+  "defaultCommandTimeout":100000,
+  "pageLoadTimeout": 50000,
+  "watchForFileChanges":false
 }
